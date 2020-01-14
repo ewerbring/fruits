@@ -1,0 +1,33 @@
+.st0 {
+  fill: #df6801;
+}
+.st1 {
+  fill: #fda044;
+}
+.st2 {
+  fill: #ee8527;
+}
+.st3 {
+  fill: #f07800;
+}
+.st3:hover {
+  animation: colorshift 2s ease infinite;
+}
+.st4 {
+  fill: #fe8c02;
+}
+
+@keyframes colorshift {
+  0% {
+    fill: orange;
+  }
+  40% {
+    fill: blue;
+  }
+  80% {
+    fill: green;
+  }
+  100% {
+    fill: orange;
+  }
+}
